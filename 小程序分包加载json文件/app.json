@@ -1,0 +1,122 @@
+{
+  "pages": [
+    "pages/connectWifi/connectWifi",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/openVip/openVip",
+    "pages/shoppingTrolly/shoppingTrolly",
+    "pages/collect/collect",
+    "pages/paySuc/paySuc",
+    "pages/codePay/codePay",
+    "pages/wallet/wallet",
+    "pages/buyVip/buyVip",
+    "pages/myPage/myPage",
+    "pages/setMeal/setMeal",
+    "pages/setMealList/setMealList",
+    "pages/goodsTicket/goodsTicket",
+    "pages/discountCoupon/discountCoupon",
+    "pages/newOrderdetail/newOrderdetail",
+    "pages/location/location",
+    "pages/newOrder/newOrder",
+    "pages/my/my",
+    "pages/buyCard/buyCard",
+    "pages/face/face",
+    "pages/faceset/faceset",
+    "pages/selectorder/selectorder",
+    "pages/site/site",
+    "pages/take/take",
+    "pages/after/after",
+    "pages/refund/refund",
+    "pages/details/details",
+    "pages/invoice/invoice",
+    "pages/invoiceDetails/invoiceDetails",
+    "pages/availableVouchers/availableVouchers",
+    "pages/goodsDetails/goodsDetails",
+    "pages/confirmOrder/confirmOrder",
+    "pages/ticketCenter/ticketCenter",
+    "pages/shippingAddress/shippingAddress",
+    "pages/share/share",
+    "pages/buyCard/share/share",
+    "pages/mymoney/mymoney",
+    "pages/commonCart/commonCart",
+    "pages/billDateil/billDateil",
+    "pages/shopSearch/shopSearch",
+    "pages/timelimitedSpike/timelimitedSpike",
+    "pages/seckillDetail/seckillDetail",
+    "pages/orientation/orientation"
+  ],
+  "subpackages": [
+    {
+      "root": "soul_cards",
+      "name": "soul_cards",
+      "pages": [
+        "cardFood/cardFood",
+        "Choose/Choose",
+        "cash/cash",
+        "AdvanceSale/AdvanceSale",
+        "FlashSale/FlashSale"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "soul_cards"
+      ]
+    }
+  },
+  "window": {
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FCCF16",
+    "navigationBarTitleText": "我家智能精选便利店",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#292928",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "selectedIconPath": "images/home.png",
+        "iconPath": "images/nohome.png"
+      },
+      {
+        "pagePath": "pages/shoppingTrolly/shoppingTrolly",
+        "text": "购物车",
+        "selectedIconPath": "images/store.png",
+        "iconPath": "images/nostore.png"
+      },
+      {
+        "pagePath": "pages/newOrder/newOrder",
+        "text": "订单",
+        "selectedIconPath": "images/order.png",
+        "iconPath": "images/no-order.png"
+      },
+      {
+        "pagePath": "pages/myPage/myPage",
+        "text": "我的",
+        "iconPath": "images/nomy.png",
+        "selectedIconPath": "images/my.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "navigateToMiniProgramAppIdList": [
+    "wxbd687630cd02ce1d"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
